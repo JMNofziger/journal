@@ -20,5 +20,14 @@
       <description>I&amp;rsquo;ve been exploring Hugo for a bit and decided that I&amp;rsquo;d like to deploy my fresh blog site to the /blog/ subdirectory of my https://jmnofziger.github.io base url. However, my attempts to do that locally resulted in resources not being linked correctly. CSS stylesheets couldn&amp;rsquo;t be found, JS scripts couldn&amp;rsquo;t be found; all my resources were return 404. An inspection with the browser console showed that resource URL&amp;rsquo;s weren&amp;rsquo;t being updated to reflect https://jmnofziger.</description>
     </item>
     
+    <item>
+      <title>Learning about Hugo</title>
+      <link>https://jmnofziger.github.io/journal/post/learning-about-hugo/</link>
+      <pubDate>Tue, 09 May 2017 00:00:49 -0700</pubDate>
+      
+      <guid>https://jmnofziger.github.io/journal/post/learning-about-hugo/</guid>
+      <description>After playing with Jekyll I became curious about other options for static site generations. This is my attempt at working with Hugo, a simple site generator that runs on Go.</description>
+    </item>
+    
   </channel>
 </rss>

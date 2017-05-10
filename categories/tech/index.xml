@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on JMNofziger</title>
+    <link>https://jmnofziger.github.io/journal/categories/tech/</link>
+    <description>Recent content in Tech on JMNofziger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 May 2017 12:39:41 -0700</lastBuildDate>
+    
+	<atom:link href="https://jmnofziger.github.io/journal/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploying Hugo To Subdirectory</title>
+      <link>https://jmnofziger.github.io/journal/post/deploying-hugo-to-subdirectory/</link>
+      <pubDate>Tue, 09 May 2017 12:39:41 -0700</pubDate>
+      
+      <guid>https://jmnofziger.github.io/journal/post/deploying-hugo-to-subdirectory/</guid>
+      <description>I&amp;rsquo;ve been exploring Hugo for a bit and decided that I&amp;rsquo;d like to deploy my fresh blog site to the /blog/ subdirectory of my https://jmnofziger.github.io base url. However, my attempts to do that locally resulted in resources not being linked correctly. CSS stylesheets couldn&amp;rsquo;t be found, JS scripts couldn&amp;rsquo;t be found; all my resources were return 404. An inspection with the browser console showed that resource URL&amp;rsquo;s weren&amp;rsquo;t being updated to reflect https://jmnofziger.</description>
+    </item>
+    
+  </channel>
+</rss>

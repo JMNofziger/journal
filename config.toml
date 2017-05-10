@@ -44,7 +44,7 @@ googleAnalytics = ""
     location = "Seattle | Washington"
     paragraph = "Web development, system administration, and the odyssey of continuing studies."
 
-    about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris. Blog powered by Hugo."
+    about     = "Jacob grew up on a pig farm and he didn't think it was all that bad. However, Jacob really likes learning new things so he left the pig farm, got a bachelors degree in biology, and has worked in web development and system admistrator roles since then. He enjoys listening to music, reading about technology, anddrinking coffee with friends. Blog powered by Hugo."
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
@@ -64,7 +64,7 @@ googleAnalytics = ""
 #    sidebar = 2
 
 # Set up your menu items in the navigation bar
-# You can use identifier to prepend a font awesome icon to your text
+# You can use fa identifier to prepend a font awesome icon to your text
 [[menu.main]]
     name = "All Posts"
     url = "/post/"

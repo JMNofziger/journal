@@ -6,10 +6,20 @@
     <description>Recent content in Posts on JMNofziger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 May 2017 12:39:41 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 15 May 2017 18:12:15 -0700</lastBuildDate>
     
 	<atom:link href="https://jmnofziger.github.io/journal/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Initial Django Env Setup</title>
+      <link>https://jmnofziger.github.io/journal/post/initial-django-env/</link>
+      <pubDate>Mon, 15 May 2017 18:12:15 -0700</pubDate>
+      
+      <guid>https://jmnofziger.github.io/journal/post/initial-django-env/</guid>
+      <description>Django is a web framework that runs on python. Now that I&amp;rsquo;ve gotten well acquainted with the python syntax exploring Django has become much more intriguing. In this post I work through the DjangoGirls intro to Django tutorial which was presented in Seattle in April 2017. One of my classmates attended (Margarita) and passed on the tutorial to me. You can find the walkthrough here: https://tutorial.djangogirls.org/en/
+In this post I&amp;rsquo;ll just summarize the setup through the point at which Django serves its default project page.</description>
+    </item>
     
     <item>
       <title>Deploying Hugo To Subdirectory</title>

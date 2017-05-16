@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jmnofziger.github.io/journal/post/initial-django-env/</loc>
+    <lastmod>2017-05-15T18:12:15-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jmnofziger.github.io/journal/post/deploying-hugo-to-subdirectory/</loc>
     <lastmod>2017-05-09T12:39:41-07:00</lastmod>
   </url>
@@ -18,13 +23,13 @@
   
   <url>
     <loc>https://jmnofziger.github.io/journal/</loc>
-    <lastmod>2017-05-09T12:39:41-07:00</lastmod>
+    <lastmod>2017-05-15T18:12:15-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jmnofziger.github.io/journal/post/</loc>
-    <lastmod>2017-05-09T12:39:41-07:00</lastmod>
+    <lastmod>2017-05-15T18:12:15-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -35,7 +40,7 @@
   
   <url>
     <loc>https://jmnofziger.github.io/journal/categories/tech/</loc>
-    <lastmod>2017-05-09T12:39:41-07:00</lastmod>
+    <lastmod>2017-05-15T18:12:15-07:00</lastmod>
     <priority>0</priority>
   </url>
   

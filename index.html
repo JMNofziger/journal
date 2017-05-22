@@ -29,7 +29,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-05-15T18:12:15-07:00"/>
+<meta property="og:updated_time" content="2017-05-20T13:42:55-07:00"/>
 
 
 
@@ -182,6 +182,10 @@
 
                 
                     <li>
+                        <a href="https://jmnofziger.github.io/journal/post/django-models-and-deploy/"><p>Django Models and Deployment</p></a>
+                    </li>
+                
+                    <li>
                         <a href="https://jmnofziger.github.io/journal/post/initial-django-env/"><p>Initial Django Env Setup</p></a>
                     </li>
                 
@@ -211,8 +215,10 @@
     <header>
     <div class="title">
         
-            <h2><a href="https://jmnofziger.github.io/journal/post/initial-django-env/">Initial Django Env Setup</a></h2>
+            <h2><a href="https://jmnofziger.github.io/journal/post/django-models-and-deploy/">Django Models and Deployment</a></h2>
         
+        
+            <p>In which we learn about Django object models and deploy our work to the WORLD WIDE WEB...</p>
         
     </div>
     <div class="meta">
@@ -221,11 +227,11 @@
         
 
         <time class="published"
-            datetime='2017-05-15'>
-            May 15, 2017</time>
+            datetime='2017-05-20'>
+            May 20, 2017</time>
         <span class="author">JMN</span>
         
-            <p>5 minute read</p>
+            <p>4 minute read</p>
         
         
     </div>
@@ -237,43 +243,43 @@
             
 
 
-<li><a href="//twitter.com/share?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f&text=Initial%20Django%20Env%20Setup&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f&text=Django%20Models%20and%20Deployment&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f&title=Initial%20Django%20Env%20Setup" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f&title=Django%20Models%20and%20Deployment" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f&title=Initial%20Django%20Env%20Setup" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f&title=Django%20Models%20and%20Deployment" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f&title=Initial%20Django%20Env%20Setup" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f&title=Django%20Models%20and%20Deployment" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by JMN&body=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by JMN&body=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -283,85 +289,62 @@
     
 
     <div id="content">
-        
+        <p>Finally had some free time to come back to my prepared Django environment and mess around with a starter project. You can follow <a href="https://tutorial.djangogirls.org/en/django_models/">the same walkthrough I did</a>. I&rsquo;ll just highlight some of the interesting things learned.</p>
 
-<p><img src="http://docs.django-cms.org/en/release-2.4.x/_images/it-worked.png" alt="Image" /></p>
+<ol>
+<li>Object Models and Django
 
-<p>Django is a web framework that runs on python. Now that I&rsquo;ve gotten well acquainted with the python syntax exploring Django has become much more intriguing. In this post I work through the DjangoGirls intro to Django tutorial which was presented in Seattle in April 2017. One of my classmates attended (Margarita) and passed on the tutorial to me. You can find the walkthrough here: <a href="https://tutorial.djangogirls.org/en/">https://tutorial.djangogirls.org/en/</a></p>
+<ol>
+<li>Objects - a way to describe real things in code with properties and actions</li>
+<li>object properties == property of a thing</li>
+<li>methods == actions of a thing</li>
+<li>Applying object model to Django blog posts</li>
+<li>properties: title, text, author, created_date, published_date</li>
+<li>methods: publish</li>
+</ol></li>
+<li>Applications and Django
 
-<p>In this post I&rsquo;ll just summarize the setup through the point at which Django serves its default project page. Don&rsquo;t wanna read mine? Try the &ndash;<a href="#tldr">tldr</a>&ndash;</p>
+<ol>
+<li>Create separate apps within prject to keep things organized</li>
+<li>Create app with manage.py &lsquo;startapp&rsquo; command
+<code>shell
+python manage.py startapp yourappname
+</code></li>
+<li>Update your settings.py file to reflect new app, create list of database fields that the model defines.</li>
+</ol></li>
+</ol>
 
-<p>The tutorial begins with a general explanation of how requests to web servers are handled. The good ol&rsquo; post office analogy is used. This is followed by a command line crash course which guides the user through a few common commands on the operating system of their choice. Finally, we&rsquo;re introduced to Python.</p>
+<p>The <a href="https://docs.djangoproject.com/en/1.11/topics/db/models/">Django models documentation page</a> has great introductory information but also dives way deep (you know, documentation style) once it has the basics covered. Another super cool django doc page is the <a href="https://docs.djangoproject.com/en/1.11/ref/models/instances/">Model instance reference page</a> which explains that each model you make is a python class that subclasses &lsquo;django.db.models.Model&rsquo;. Whatcha know about <a href="https://docs.python.org/3.6/tutorial/classes.html">inheiritance in Python</a>?</p>
 
-<p>This section begins with a guide for installing Python and the tutorial calls for users to use version 3.5 (As of May 2017). I actually had 3.6.1 installed and everything worked fine. Curious what version you might be running? Try the following command in your terminal.</p>
+<p>After creating our model and  migrating the model to the database, we register the model to our app admin page to make it visible there. This will serve up the Post model for us through the admin view. We will have to log in to see that so first we need to make our Django superuser with the &lsquo;createsuperuser&rsquo; command. Nice.</p>
 
-<pre><code class="language-shell">python --version
+<p>Then we login with our baseurl (in this case localhost:8000) with the &lsquo;/admin&rsquo; directory appended to the url name.</p>
+
+<p>The next section covered deployment and I was going to skip it because <del><em>ya boy is a __woke__ playa</em></del> but then I read through it and was like, ~<em>this is actually interesting</em>~</p>
+
+<p>By this point the DjangoGirls tutorial has set you up with a local dev environment. Their deploy step has track changes by setting up a github repository for your project and then host your application on <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.</p>
+
+<p>I had never heard of PythonAnywhere and once I started reading about it I got interested in this step. PythonAnywhere allows you to host small applications with low traffic for free. That means all your learner projects hosted for free, available online for you to link to on your portfolio site. Nice! <strong><em>yes, I know about github pages, codepen, free digital ocean credits, blah blah blah&hellip;</em></strong> but if you do know other good resources for free deployment of learner projects&hellip; lemme know.</p>
+
+<p>I had already set up a git repository for this project and needed to update my .gitignore file (a file that tells git which files to ignore as it track for changes). After updating that list to match the DjanoGirls setup I needed to get my repository to remove the files no longer being tracked. One quick google search later resulted in <a href="https://stackoverflow.com/questions/13541615/how-to-remove-files-that-are-listed-in-the-gitignore-but-still-on-the-repositor">a stack overflow post made for me</a>.</p>
+
+<p>Here&rsquo;s the basic command for removing the now &lsquo;untracked&rsquo; files from your repo:</p>
+
+<pre><code class="language-git">git rm --cached filename1 filename2
 </code></pre>
 
-<p>From there the tutorial introduces the user to code editors and basic Python. This is a long section and probably intense for a newbie but now a total breeze for a three month pro like me. I did a quick skim and it seems legit, maybe even overwhelming for a new learner. For someone in that situation I&rsquo;m sure the group setting with coaches would make the experience much better. This section also includes links to videos to accompany the reading for those more visual learners.</p>
+<p>But that&rsquo;s annoying and Samy Dindane says that if you have access to the bash terminal you can run a command to totally skip the manual input of files:</p>
 
-<p>Django is introduced and a quick overview of web frameworks is given. We meet Django&rsquo;s <strong>urlresolver</strong> which takes a list of patterns and tries to them to the URL; if a match is found the request is passed on to the associated function (the <strong>view</strong>).</p>
-
-<p>We are then taken through setting up a virtual environment to isolate our Python/Django setup for this project. This is followed by using pip to make sure the pip package is updated and then installing Django. I&rsquo;ve summarized the commands below (remember, I&rsquo;m using Arch Linux).</p>
-
-<p>First the creation of the virtual environment within your chosen project directory. You can choose whatever name you please for your venv but I would keep it short.</p>
-
-<pre><code class="language-shell">python -m venv jacobs-venv
+<pre><code class="language-shell">git rm --cached `git ls-files -i --exclude-from=.gitignore`
 </code></pre>
 
-<p>Quick explanation of the above syntax. We are calling python from the command line and supplying the <em>venv</em> module as the argument for the -m option. The -m option indicates to python that a module-name will be supplied for execution. You can check out the python <em>man</em> page or <a href="https://docs.python.org/3.6/using/cmdline.html">python documentation about the cli environment</a> for more information about the different options available and you can see the following python module documentation for information about <a href="https://docs.python.org/3/library/venv.html">the <em>venv</em> module</a>.</p>
+<p>And that worked like a dream for me. Beleza! Read up on <a href="https://stackoverflow.com/questions/12661306/git-rm-cached-file-vs-git-reset-file">git rm &ndash;cached vs. git reset &ndash; </a> and <a href="https://git-scm.com/docs/git-ls-files">git ls-files and related flags</a> and <a href="https://git-scm.com/docs/gitignore">.gitignore</a> to your delight&hellip;</p>
 
-<p>Sweet. Now we activate our virtual environment by running our source command on the activate script found within the bin folder of our newly minted virtual environment.</p>
+<p>Cool, once that was resolved I could clone my project onto my PythonAnywhere environment and reconfigure my settings for &lsquo;production&rsquo;. PythonAnywhere is pretty fun but my excitement was a lil tempered by the realization that your projects are limited to a three-month lifespan. But then elevated again by the realization that you can renew via email when the expiration draws near. <a href="http://blog.pythonanywhere.com/129/">They&rsquo;re actually pretty sweet about this all.</a></p>
 
-<pre><code class="language-shell">source jacobs-venv/bin/activate
-</code></pre>
+<p>We then modify our wsgi.py file to reflect our project location, django site settings file, and how we want our static files to be handled. And that&rsquo;s that. You reload your app on PythonAnywhere and bam! Your site is live at your chosen subdomain.</p>
 
-<p>The <em>source</em> command will read and execute commands from the supplied file (in our case the &lsquo;activate&rsquo; file found within the venv bin directory) and is a Bourne Shell built-in command. You can read more about <em>source</em> on <a href="https://ss64.com/bash/source.html">Simon Sheppard&rsquo;s site</a> or directly on <a href="https://www.gnu.org/software/bash/manual/bash.html#Bourne-Shell-Builtins-1">the GNU documentation page</a>.</p>
-
-<p>Now, with our virtual environment activated, we use pip to make sure that pip is up to date. Meta.</p>
-
-<pre><code class="language-shell">pip install --upgrade pip
-</code></pre>
-
-<p>That seems pretty self-explanatory. Pip is a package management used to install and manage software packages written in Python. I took that definition from the [pip (package manager) wikipedia page](<a href="https://en.wikipedia.org/wiki/Pip_(package_manager">https://en.wikipedia.org/wiki/Pip_(package_manager</a>).</p>
-
-<p>Finally we install Django using pip. The tutorial requests that we use a version greater than or equal to (~=) 1.10</p>
-
-<pre><code class="language-shell">pip install django~=1.10.0
-</code></pre>
-
-<p>You should then see pip&rsquo;s installation progress bar which I think is very cool. Cooler than Arch&rsquo;s pacman default progress bar? Yes. Cooler than Arch&rsquo;s pacman <a href="Linu://wiki.manjaro.org/index.php?title=Progress_Bar_as_Pacman_Eating_Power_Pills">pacman progress bar</a>? No.</p>
-
-<p>Wait, <a href="https://pypi.python.org/pypi/pacmanprogressbar/">nevermind</a>. Thanks Jesus.</p>
-
-<p>Anyhow, now we have our venv configured, pip up to date, and django installed. Yay! Now we will run some django scripts to get our site skeleton set up.</p>
-
-<pre><code class="language-shell">django-admin startproject mysite .
-</code></pre>
-
-<p>This django-admin script with the startproject argument creates the default site directories and files within a directory with a name of our choice (&lsquo;mysite&rsquo;) and placed at a location of our choice (&lsquo;.&rsquo; or in other words, here). You can read more about <a href="https://docs.djangoproject.com/en/1.11/ref/django-admin/">django-admin</a> and the <a href="https://docs.djangoproject.com/en/1.11/ref/django-admin/#s-startproject">startproject</a> on the official django documentation site.</p>
-
-<p>The tutorial then has us make some adjustments to our settings.py file that was generated by the <em>startproject</em> command but we&rsquo;ll pass over that now. We then create the database for our site sing the manage.py migrate command. By default Django is set up to use sqlite3 as it&rsquo;s database. Remember we should still have our venv activated.</p>
-
-<pre><code class="language-shell">python manage.py migrate
-</code></pre>
-
-<p>You should then see a bunch of output with &lsquo;OK&rsquo; status endings. Nice. Now we run the command to start the web server and check out our skeleton site in the browser.</p>
-
-<pre><code class="language-shell">python manage.py runserver
-</code></pre>
-
-<p>This should server your site at <a href="http://localhost:8000">http://localhost:8000</a> or <a href="http://127.0.0.1:8000">http://127.0.0.1:8000</a> by default. Your commandline will show requests to your &lsquo;server&rsquo; and the status code associated with the request. You&rsquo;ll probably see a 404 for a favicon request since there is no favicon resource.</p>
-
-<p>And that&rsquo;s that! Django is set up within a venv isolated within a project folder and serving up its skeleton site based on the default database.</p>
-
-<p><a name="tldr"></a></p>
-
-<hr />
-
-<h3 id="tldr">tldr</h3>
-
-<p>I just summarize the first 10 sections of the <a href="https://tutorial.djangogirls.org/en/">Django Girls Tutorial</a>.</p>
+<p>Baiiiii!</p>
 
     </div>
 
@@ -402,8 +385,8 @@
 </article>
 <ul class="actions pagination">
     
-        <li><a href="https://jmnofziger.github.io/journal/post/deploying-hugo-to-subdirectory/"
-                class="button big previous">Deploying Hugo To Subdirectory</a></li>
+        <li><a href="https://jmnofziger.github.io/journal/post/initial-django-env/"
+                class="button big previous">Initial Django Env Setup</a></li>
     
 
     
@@ -416,9 +399,9 @@
             <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'simjmn';
-    var disqus_identifier = 'https:\/\/jmnofziger.github.io\/journal\/post\/initial-django-env\/';
-    var disqus_title = 'Initial Django Env Setup';
-    var disqus_url = 'https:\/\/jmnofziger.github.io\/journal\/post\/initial-django-env\/';
+    var disqus_identifier = 'https:\/\/jmnofziger.github.io\/journal\/post\/django-models-and-deploy\/';
+    var disqus_title = 'Django Models and Deployment';
+    var disqus_url = 'https:\/\/jmnofziger.github.io\/journal\/post\/django-models-and-deploy\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -442,43 +425,43 @@
             
 
 
-<li><a href="//twitter.com/share?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f&text=Initial%20Django%20Env%20Setup&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f&text=Django%20Models%20and%20Deployment&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f&title=Initial%20Django%20Env%20Setup" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f&title=Django%20Models%20and%20Deployment" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f&title=Initial%20Django%20Env%20Setup" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f&title=Django%20Models%20and%20Deployment" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f&title=Initial%20Django%20Env%20Setup" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f&title=Django%20Models%20and%20Deployment" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by JMN&body=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2finitial-django-env%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by JMN&body=https%3a%2f%2fjmnofziger.github.io%2fjournal%2fpost%2fdjango-models-and-deploy%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>

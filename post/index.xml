@@ -6,10 +6,20 @@
     <description>Recent content in Posts on JMNofziger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 May 2017 18:12:15 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 20 May 2017 13:42:55 -0700</lastBuildDate>
     
 	<atom:link href="https://jmnofziger.github.io/journal/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Django Models and Deployment</title>
+      <link>https://jmnofziger.github.io/journal/post/django-models-and-deploy/</link>
+      <pubDate>Sat, 20 May 2017 13:42:55 -0700</pubDate>
+      
+      <guid>https://jmnofziger.github.io/journal/post/django-models-and-deploy/</guid>
+      <description>Finally had some free time to come back to my prepared Django environment and mess around with a starter project. You can follow the same walkthrough I did. I&amp;rsquo;ll just highlight some of the interesting things learned.
+ Object Models and Django  Objects - a way to describe real things in code with properties and actions object properties == property of a thing methods == actions of a thing Applying object model to Django blog posts properties: title, text, author, created_date, published_date methods: publish  Applications and Django  Create separate apps within prject to keep things organized Create app with manage.</description>
+    </item>
     
     <item>
       <title>Initial Django Env Setup</title>

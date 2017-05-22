@@ -1,5 +1,5 @@
 +++
-author = "JMNofziger"
+author = "JMN"
 categories = ['Tech']
 date = "2017-05-20T13:42:55-07:00"
 description = "In which we learn about Django object models and deploy our work to the WORLD WIDE WEB..."

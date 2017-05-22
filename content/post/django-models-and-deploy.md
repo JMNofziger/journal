@@ -34,7 +34,7 @@ After creating our model and  migrating the model to the database, we register t
 
 Then we login with our baseurl (in this case localhost:8000) with the '/admin' directory appended to the url name. 
 
-The next section covered deployment and I was going to skip it because ***ya boy is a ___woke___ playa*** but then I read through it and was like, ***this is actually interesting***
+The next section covered deployment and I was going to skip it because ~~*ya boy is a \_\_woke\_\_ playa*~~ but then I read through it and was like, ~*this is actually interesting*~
 
 By this point the DjangoGirls tutorial has set you up with a local dev environment. Their deploy step has track changes by setting up a github repository for your project and then host your application on [PythonAnywhere](https://www.pythonanywhere.com/). 
 

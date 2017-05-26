@@ -6,10 +6,19 @@
     <description>Recent content in Posts on JMNofziger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 May 2017 13:42:55 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 26 May 2017 10:11:49 -0700</lastBuildDate>
     
 	<atom:link href="https://jmnofziger.github.io/journal/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>End Of May Update</title>
+      <link>https://jmnofziger.github.io/journal/post/end-of-may-update/</link>
+      <pubDate>Fri, 26 May 2017 10:11:49 -0700</pubDate>
+      
+      <guid>https://jmnofziger.github.io/journal/post/end-of-may-update/</guid>
+      <description>Computers More fun python this month with lil projects in Django and Flask. Currently working on a simple dashboard for displaying the data collected by a solar array, cleaning up my own portfolio, and starting work on a lil web app to output nicely formatted &amp;lsquo;set lists&amp;rsquo; of your Spotify playlists. That should be fun little introduction to the Spotify API and give me an idea of what might be possible.</description>
+    </item>
     
     <item>
       <title>Django Models and Deployment</title>

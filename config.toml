@@ -26,6 +26,7 @@ googleAnalytics = ""
     # Please see the favicon partial template for more information
     loadFavicon          = false
     faviconVersion       = ""
+    taskLists            = true
 
     # Load custom CSS or JavaScript files. The variable is an array so that you
     # can load multiple files if necessary. You can also load the standard theme
@@ -113,3 +114,6 @@ googleAnalytics = ""
     twitter_domain  = ""
     twitter         = ""
     email           = "jacob.nofziger@gmail.com"
+
+[blackfriday]
+    taskLists = true

@@ -6,10 +6,30 @@
     <description>Recent content in Posts on JMNofziger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 May 2017 14:56:31 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jun 2017 14:26:52 -0700</lastBuildDate>
     
 	<atom:link href="https://jmnofziger.github.io/journal/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>improving arch aur installs</title>
+      <link>https://jmnofziger.github.io/journal/post/improving-arch-aur-installs/</link>
+      <pubDate>Sun, 11 Jun 2017 14:26:52 -0700</pubDate>
+      
+      <guid>https://jmnofziger.github.io/journal/post/improving-arch-aur-installs/</guid>
+      <description>I use Arch Linux on my poor seven year old laptop. My experience has been overwhelmingly positive&amp;hellip; buuuuuuuuuuut, there have been a few times that my computers performance has driven me to the edge. Most of those experiences have been in attempting to install packages from the Arch User Repository or the AUR for short.
+Let&amp;rsquo;s step back. Quick intro to Arch and a link to the projects home on the web: Arch is a &amp;lsquo;lightweight and flexible Linux® distribution that tries to Keep It Simple.</description>
+    </item>
+    
+    <item>
+      <title>wordpress database syncing/migration</title>
+      <link>https://jmnofziger.github.io/journal/post/wordpress-database-syncing/</link>
+      <pubDate>Sat, 03 Jun 2017 23:47:51 -0700</pubDate>
+      
+      <guid>https://jmnofziger.github.io/journal/post/wordpress-database-syncing/</guid>
+      <description>WordPress. A PHP based CMS with a MySQL database that generates pages as they are requested. Reviled. Loved. Free. Open Source. The most used content management system on the WWW. Make or choose any obnoxious plugin you want. Complain about that free plugin not being maintained well.
+Whatever. Setting up a local development environment for WordPress (WP) has always been harder than it should have been for me but I won&amp;rsquo;t be covering that here.</description>
+    </item>
     
     <item>
       <title>Initiate Planning Sequence: Sopping Up The Mess</title>

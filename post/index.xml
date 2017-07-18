@@ -6,10 +6,20 @@
     <description>Recent content in Posts on JMNofziger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Jun 2017 14:26:52 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jul 2017 17:40:34 -0700</lastBuildDate>
     
 	<atom:link href="https://jmnofziger.github.io/journal/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sharing With Spotify</title>
+      <link>https://jmnofziger.github.io/journal/post/sharing-with-spotify/</link>
+      <pubDate>Wed, 12 Jul 2017 17:40:34 -0700</pubDate>
+      
+      <guid>https://jmnofziger.github.io/journal/post/sharing-with-spotify/</guid>
+      <description>Spotify: a music streaming service with social features. Spotify has become the means by which I can most effectively mooch off my friends great taste in music. Spotify allows you to share your daily listening activity, playlists, and top artists with your &amp;ldquo;followers&amp;rdquo; and the general public. They also have a great API for developers to build with but we&amp;rsquo;ll save those ideas for another post.
+Unfortunately, it seems like some users are having a hard time locating their friends on Spotify.</description>
+    </item>
     
     <item>
       <title>improving arch aur installs</title>
@@ -79,15 +89,6 @@ In this post I&amp;rsquo;ll just summarize the setup through the point at which 
       
       <guid>https://jmnofziger.github.io/journal/post/deploying-hugo-to-subdirectory/</guid>
       <description>I&amp;rsquo;ve been exploring Hugo for a bit and decided that I&amp;rsquo;d like to deploy my fresh blog site to the /blog/ subdirectory of my https://jmnofziger.github.io base url. However, my attempts to do that locally resulted in resources not being linked correctly. CSS stylesheets couldn&amp;rsquo;t be found, JS scripts couldn&amp;rsquo;t be found; all my resources were return 404. An inspection with the browser console showed that resource URL&amp;rsquo;s weren&amp;rsquo;t being updated to reflect https://jmnofziger.</description>
-    </item>
-    
-    <item>
-      <title>Learning about Hugo</title>
-      <link>https://jmnofziger.github.io/journal/post/learning-about-hugo/</link>
-      <pubDate>Tue, 09 May 2017 00:00:49 -0700</pubDate>
-      
-      <guid>https://jmnofziger.github.io/journal/post/learning-about-hugo/</guid>
-      <description>After playing with Jekyll I became curious about other options for static site generations. This is my attempt at working with Hugo, a simple site generator that runs on Go.</description>
     </item>
     
   </channel>

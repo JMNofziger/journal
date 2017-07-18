@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jmnofziger.github.io/journal/post/sharing-with-spotify/</loc>
+    <lastmod>2017-07-12T17:40:34-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jmnofziger.github.io/journal/post/improving-arch-aur-installs/</loc>
     <lastmod>2017-06-11T14:26:52-07:00</lastmod>
   </url>
@@ -38,24 +43,19 @@
   </url>
   
   <url>
-    <loc>https://jmnofziger.github.io/journal/post/learning-about-hugo/</loc>
-    <lastmod>2017-05-09T00:00:49-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jmnofziger.github.io/journal/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jmnofziger.github.io/journal/</loc>
-    <lastmod>2017-06-11T14:26:52-07:00</lastmod>
+    <lastmod>2017-07-12T17:40:34-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jmnofziger.github.io/journal/categories/music/</loc>
-    <lastmod>2017-05-26T10:11:49-07:00</lastmod>
+    <lastmod>2017-07-12T17:40:34-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -67,7 +67,7 @@
   
   <url>
     <loc>https://jmnofziger.github.io/journal/post/</loc>
-    <lastmod>2017-06-11T14:26:52-07:00</lastmod>
+    <lastmod>2017-07-12T17:40:34-07:00</lastmod>
     <priority>0</priority>
   </url>
   

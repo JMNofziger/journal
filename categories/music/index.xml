@@ -6,10 +6,20 @@
     <description>Recent content in Music on JMNofziger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 May 2017 10:11:49 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jul 2017 17:40:34 -0700</lastBuildDate>
     
 	<atom:link href="https://jmnofziger.github.io/journal/categories/music/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sharing With Spotify</title>
+      <link>https://jmnofziger.github.io/journal/post/sharing-with-spotify/</link>
+      <pubDate>Wed, 12 Jul 2017 17:40:34 -0700</pubDate>
+      
+      <guid>https://jmnofziger.github.io/journal/post/sharing-with-spotify/</guid>
+      <description>Spotify: a music streaming service with social features. Spotify has become the means by which I can most effectively mooch off my friends great taste in music. Spotify allows you to share your daily listening activity, playlists, and top artists with your &amp;ldquo;followers&amp;rdquo; and the general public. They also have a great API for developers to build with but we&amp;rsquo;ll save those ideas for another post.
+Unfortunately, it seems like some users are having a hard time locating their friends on Spotify.</description>
+    </item>
     
     <item>
       <title>End Of May Update</title>

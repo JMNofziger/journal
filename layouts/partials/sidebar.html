@@ -6,11 +6,11 @@
             {{ $pic := .Site.Params.intro.pic }}
             {{ with $pic.src }}
                 {{ if $pic.circle }}
-                    <img src="{{ . }}" class="intro-circle" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
+                    <img src="{{ . | relURL }}" class="intro-circle" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
                 {{ else if $pic.imperfect }}
-                    <a href="/" class="logo"><img src="{{ . }}" alt="{{ $pic.alt }}" /></a>
+                    <a href="{{ "/" | relURL }}" class="logo"><img src="{{ . | relURL }}" alt="{{ $pic.alt }}" /></a>
                 {{ else }}
-                    <img src="{{ . }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
+                    <img src="{{ . | relURL }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
                 {{ end }}
             {{ end }}
             {{ with .Site.Params.intro }}
@@ -31,17 +31,13 @@
             </ul>
         </section>
 
-    <!-- Posts List -->
+        <!-- Posts List -->
 <!--        <section id="recent-posts">
             <ul class="posts">
                 <header>
                     <h3>Recent Posts</h3>
                 </header>
-                {{ if .Site.Params.orderByPublishDate }}
-                    {{ $.Scratch.Set "recentPosts" .Site.Pages.ByPublishDate.Reverse }}
-                {{ else }}
-                    {{ $.Scratch.Set "recentPosts" .Site.Pages }}
-                {{ end }}
+                {{ $.Scratch.Set "recentPosts" .Site.Pages }}
 
                 {{ with .Site.Params.postAmount.sidebar }}
                     {{ $.Scratch.Set "postLimit" . }}
@@ -54,11 +50,7 @@
                         <article>
                             <header>
                                 <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                                {{ if .Site.Params.orderByPublishDate }}
-                                    {{ $.Scratch.Set "dateType" .PublishDate }}
-                                {{ else }}
-                                    {{ $.Scratch.Set "dateType" .Date }}
-                                {{ end }}
+                                {{ $.Scratch.Set "dateType" .Date }}
                                 <time class="published" datetime=
                                     '{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
                                     {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}</time>
@@ -82,7 +74,7 @@
                 {{ end }}
             </ul>
         </section>
--->
+        -->
     <!-- This if statement only applies if someone goes to the /categories url -->
     <!-- Otherwise this section is shown for all other links -->
 <!--    {{ if ne ($.Scratch.Get "showCategories") false }} -->
@@ -103,7 +95,7 @@
                     <li>
                         <article>
                             <header>
-                                <a href="/categories/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
+                                <a href="{{ printf "/categories/%s" ( $value.Name | urlize ) | relURL }}">{{ $value.Name }}</a>
                                 <span style="float:right;">{{ $value.Count }}</span>
                             </header>
                         </article>
